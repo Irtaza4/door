@@ -51,6 +51,15 @@ bool isDoorLocked() const{
 }
 
 
+void unlock();
+
+bool isDoorOpen() const;
+bool isDoorLocked() const{
+    cout<<"THis is isdoorlocked"<<endl;
+}
+
+bool isDoorLocked() const;
+
 };
 
 int main(){ 
