@@ -26,7 +26,11 @@ if (!isLocked) {
         cout << "Cannot open the door. It is locked.\n";
     }
 }
-void closeDoor();
+void closeDoor()
+{
+isopen = false;
+    cout << "Door is now closed.\n";
+}
 
 void lockDoor()
 {
