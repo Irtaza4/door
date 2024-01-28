@@ -17,7 +17,15 @@ public:
 Door(); // Initializes the door as flosed and void openDoor();
 
 
-void openDoor();
+void openDoor()
+{
+if (!isLocked) {
+        isopen = true;
+        cout << "Door is now open.\n";
+    } else {
+        cout << "Cannot open the door. It is locked.\n";
+    }
+}
 void closeDoor();
 
 void lockDoor();
