@@ -20,7 +20,10 @@ Door(); // Initializes the door as flosed and void openDoor();
 void openDoor();
 void closeDoor();
 
-void lockDoor();
+void lockDoor()
+{
+    cout<<"lock door function";
+}
 
 void unlock();
 
