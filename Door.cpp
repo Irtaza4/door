@@ -24,13 +24,15 @@ void lockDoor();
 
 void unlock();
 
-bool isDoorOpen() const;
-bool isDoorLocked() const;
+bool isDoorOpen() const{
+
+    cout<<"this is door open "<<endl;
+}
+bool isDoorLocked() const{
+    cout<<"THis is isdoorlocked"<<endl;
+}
 
 
-
-
-bool isDoorLocked() const;
 };
 
 int main(){ 
