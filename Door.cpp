@@ -25,7 +25,10 @@ void lockDoor()
     cout<<"lock door function";
 }
 
-void unlock();
+void unlock()
+{
+    cout<<"unlock door function";
+}
 
 bool isDoorOpen() const;
 bool isDoorLocked() const;
